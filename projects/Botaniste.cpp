@@ -122,33 +122,5 @@ void Botaniste::donnerAManger(Carnivore * cible){
 
 
 
-#ifndef BOTANISTE_H
-#define BOTANISTE_H
-
-#include <iostream>
-#include <vector>
-#include <string>
-#include "Plante.h"
-#include "Carnivore.h"
-#include "Fleur.h"
-
-class Botaniste{
-    private:
-    int test;
-    public:
-    void afficher();
-    void dormir();
-    void ajoutePlante(Plante * cible);
-    void vendre(int index);
-    void arroser(Plante * cible);
-    void engrais(Plante * cible);
-    void tailler(Plante * cible);
-    void acheterEngrais();
-    void donnerAManger(Carnivore * cible);
-    std::string getNom();
-
-    Botaniste(std::string _nom, std::vector<Plante*> plante);
-    
-};
 
 #endif
