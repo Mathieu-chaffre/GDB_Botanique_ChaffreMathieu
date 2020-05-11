@@ -112,15 +112,3 @@ void Botaniste::donnerAManger(Carnivore * cible){
 
  Botaniste::Botaniste(std::string nom, std::vector<Plante*> plante): _nom(nom), _plante(plante), _argent(1000), _engrais(200) {}
 #endif
-
-
-
-
-
-
-
-
-
-
-
-#endif
